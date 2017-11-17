@@ -78,6 +78,7 @@ body {
 }
 .projects-container h2 {
   font-family: 'Playfair Display', serif;
+  margin-left: 20px;
 }
 
 /*grid*/
