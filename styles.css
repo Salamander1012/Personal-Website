@@ -61,6 +61,14 @@ body {
   height: 30px;
   margin: 10px;
 }
+.resume {
+  text-decoration: none;
+  color: white;
+}
+.resume:hover {
+  color: black;
+
+}
 /***********PROJECTS**********/
 
 
