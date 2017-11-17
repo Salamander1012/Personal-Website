@@ -5,36 +5,33 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow: hidden;
 }
 
 .flexbox .col {
-  flex: 1;
-  height: 100vh;
+  /*flex: 1;*/
+
 
 }
 
 .bio-col {
+  flex: 4;
   background-color: #5DADE2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 
 }
 
 .projects-col {
+  flex: 6;
   background-color: white;
 }
 
-@media only screen and (max-width: 900px) {
-    .flexbox {
-        flex-direction: column;
-    }
-    
 
-}
 
 /***************BIOOOO********/
 .bio {
@@ -56,11 +53,17 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+.social {
+  display: flex;
+}
+.social img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
 /***********PROJECTS**********/
 
-.projects-col {
-  overflow: scroll;
-}
+
 .projects-container {
   padding: 20px;
 
@@ -74,14 +77,34 @@ body {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
   overflow: auto;
 }
 
 .grid-item {
-  width: 200px;
+  width: 90%;
   height: 400px;
   background-color: #5DADE2;
-  margin-top: 20px;
+  margin: 20px;
+}
+
+/********media query********/
+
+@media only screen and (min-width: 900px) {
+    .flexbox {
+        flex-direction: row;
+    }
+
+    .flexbox .col {
+      height: 100vh;
+    }
+
+    .projects-col {
+      overflow: scroll;
+    }
+
+    .grid-item {
+      width: 43%;
+    }
+
+
 }
