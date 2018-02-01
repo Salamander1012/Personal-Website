@@ -55,7 +55,7 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
 }
-.bio p {
+.bio h2, p, h3 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -85,7 +85,7 @@ a {
   justify-content: space-between;
 }
 
-.title-container h2 {
+.title-container h2, h3, h4, p {
   font-family: 'Lato', sans-serif;
 }
 
