@@ -53,9 +53,10 @@ a {
 
 .bio h1 {
   font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
 }
 .bio p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .social {
@@ -85,7 +86,7 @@ a {
 }
 
 .title-container h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .title-container a:hover {
