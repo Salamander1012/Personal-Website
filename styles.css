@@ -111,6 +111,34 @@ a {
   height: 400px;
   background-color: #5DADE2;
   margin-bottom: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* .grid-item:hover {
+  border-bottom: 5px solid #5DADE2;
+  border-left: 5px solid #5DADE2;
+} */
+
+.grid-item h4 {
+  -webkit-transition: font-size 0.2s;
+}
+.grid-item  a {
+  font-family: 'Lato', sans-serif;
+  -webkit-transition: font-size 0.2s;
+  font-size: 12pt;
+  padding: 100px;
+
+
+}
+.grid-item:hover a {
+  font-size: 14pt;
+}
+.grid-item:hover h4 {
+  font-size: 15pt;
 }
 
 
