@@ -46,13 +46,8 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
-
+  text-align: center;
 }
-
-.bio {
-  color: #F8F8F8;
-}
-
 
 .social {
   display: flex;
