@@ -23,6 +23,9 @@ p {
   flex: 4;
   /* background-color: #5DADE2; */
   background-color: #B73D34;
+  /* background-color: #0481e5; */
+  /* background-image: url("bgdark.png"); */
+  /* background-position: center top; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +42,8 @@ p {
 
 
 /***************BIOOOO********/
+
+
 .bio {
   height: 300px;
   display: flex;
@@ -63,7 +68,12 @@ p {
 
 
 .projects-container {
-  margin: 13%;
+  /* margin: 13%; */
+  margin-right: 13%;
+  margin-left: 13%;
+  margin-top: 8%;
+  margin-top: 8%;
+  /* text-align: center; */
 }
 
 .projects-container {
@@ -76,6 +86,11 @@ p {
 
 .section .title {
   color: #B73D34;
+  /* color: #0481e5; */
+}
+
+.coverpic {
+  width: 100%;
 }
 
 
