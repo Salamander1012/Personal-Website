@@ -87,6 +87,7 @@ p {
 .section .title {
   color: #B73D34;
   /* color: #0481e5; */
+  font-size: 13px;
 }
 
 .coverpic {
