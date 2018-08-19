@@ -11,6 +11,10 @@ p {
   font-size: 18px;
 }
 
+.link {
+  color: #B73D34;
+}
+
 .flexbox {
   display: -webkit-flex;
   display: -ms-flexbox;
